@@ -7,7 +7,7 @@ Scenario Outline: Verify if Place is being Succesfully added using AddPlaceAPI
 	And "status" in response body is "OK"
 	And "scope" in response body is "APP"
 	And verify place_Id created maps to "<name>" using "getPlaceAPI"
-	
+	#Test code 
 Examples:
 	|name 	 | language |address		   |
 	|AAhouse |  English |World cross center|
